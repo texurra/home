@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Texurra - Digital Words Redefined</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #1f005c, #5b247a, #ff6ec4);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      font-family: 'Orbitron', sans-serif;
+    }
+    .title {
+      font-size: 4rem;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+      color: #fff;
+      text-shadow: 0 0 15px #0ff, 0 0 25px #f0f;
+      animation: flicker 2s infinite;
+    }
+    @keyframes flicker {
+      0%, 100% {opacity: 1;}
+      50% {opacity: 0.8;}
+    }
+    .subtitle {
+      margin-top: 20px;
+      font-size: 1.5rem;
+      color: #d1c4e9;
+    }
+    section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .cta {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #ffffff33;
+      padding: 40px;
+      border-radius: 20px;
+      margin: 0 auto;
+      max-width: 600px;
+      box-shadow: 0 0 20px #0ff3, 0 0 40px #f0f3;
+    }
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .cta p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      color: #cfcfcf;
+    }
+    .cta button {
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #00c6ff, #f0f);
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px #0ff, 0 0 20px #f0f;
+    }
+    .cta button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00f, 0 0 40px #f0f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="title">Texurra</div>
+    <div class="subtitle">Where Digital Words Come Alive 💻✨</div>
+  </header>
+
+  <section>
+    <div class="cta">
+      <h2>Start Sharing Your Voice</h2>
+      <p>Texurra empowers bloggers, writers, and thinkers to publish, grow, and inspire with digital style.</p>
+      <button onclick="alert('Get ready to go live!')">Launch Blog</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Texurra Inc. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
