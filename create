@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Contact | Texurra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #00c6ff, #f0f);
+      color: white;
+      font-size: 1rem;
+      text-decoration: none;
+      box-shadow: 0 0 10px #0ff, 0 0 20px #f0f;
+      transition: transform 0.3s ease;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contact Texurra</h1>
+  <p>Have a question, idea, or want to join the team? Reach us now 👇</p>
+
+  <!-- Phone Call Link -->
+  <a class="btn" href="tel:+919539218900">📞 Call Us</a>
+
+  <!-- WhatsApp Link with Pre-filled Message -->
+  <a class="btn" href="https://wa.me/919539218900?text=Hi%20Texurra%20Team!%20I%20want%20to%20connect%20with%20you." target="_blank">
+    💬 Message on WhatsApp
+  </a>
+
+  <footer>
+    &copy; 2025 Texurra • All rights reserved
+  </footer>
+
+</body>
+</html>
